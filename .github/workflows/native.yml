@@ -1,5 +1,7 @@
 name: Native
 on:
+  workflow_dispatch:
+    branches: [ master ]
   push:
     paths-ignore: [ '*.md' ]
     branches: [ '*' ]
